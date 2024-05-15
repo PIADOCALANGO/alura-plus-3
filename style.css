@@ -9,3 +9,33 @@ body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
 }
+.pincipal {
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.combo {
+    height: 0%;
+
+
+}
+.comtainer {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 5%;
+}
+.comtainer-botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    margin-left: -100%;
+    display: grid;
+    margin-right: 125%;
+}
+.segundo-botao {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
